@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github-go-example/stringutil"
+)
 
 func main() {
-	fmt.Printf("Hello, World!\n")
+	fmt.Printf(stringutil.Reverse("!oG ,olleH"))
 }
